@@ -1,0 +1,36 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'Tables'" [icon]="'fa-table'"></app-page-header>
+    <div class="card mb-3">
+
+        <table class="card-body table">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Produto</th>
+                <th>Tempo</th>
+                <th>Cliente</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="table-active">
+                <th scope="row">0001</th>
+                <td>Cerveja - Skoll</td>
+                <td>10 min</td>
+                <td>Paulo Santos</td>
+            </tr>
+            <tr class="table-warning">
+                <th scope="row">0002</th>
+                <td>Cigarro, Esqueiro</td>
+                <td>3 min</td>
+                <td>Alberto Torres</td>
+            </tr>
+            <tr class="table-danger">
+                <th scope="row">0003</th>
+                <td>Energético</td>
+                <td>0 min</td>
+                <td>Marcela de Souza</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
